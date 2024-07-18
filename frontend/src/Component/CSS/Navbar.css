@@ -1,0 +1,45 @@
+/* Navbar.css */
+
+/* Navbar container styling */
+.navbar {
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; /* Larger font size */
+    font-weight: bold; /* Bold font weight */
+    color: #333; /* Dark text color */
+  }
+  
+  .navbar-toggler {
+    border: none; /* Remove border */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333; /* Dark text color */
+    font-weight: 500; /* Medium font weight */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff; /* Blue color on hover */
+  }
+  
+  /* Active link styling */
+  .nav-item.active .nav-link {
+    color: #007bff; /* Blue color for active link */
+    font-weight: bold; /* Bold font weight */
+  }
+  
+  /* Responsive navbar toggler icon */
+  .navbar-toggler-icon {
+    background-color: #333; /* Dark navbar toggler icon */
+  }
+  
+  /* Adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      margin-top: 10px; /* Adjust top margin for smaller screens */
+    }
+  }
+  

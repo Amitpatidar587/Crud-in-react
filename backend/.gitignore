@@ -1,0 +1,34 @@
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Directory for storing session data
+sessions
+
+# Environment variables
+.env
+
+# Dependency directories
+node_modules/
+
+# Compiled binary addons
+build/Release
+
+# Output of npm
+npm-debug.log
+
+# dotenv environment variables file
+.env.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+.vscode/
